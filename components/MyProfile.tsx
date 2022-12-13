@@ -7,7 +7,7 @@ import {TbDoorExit} from 'react-icons/tb';
 import Logo from '../utils/login/login.png';
 import Image from 'next/image';
 import {FcRating} from 'react-icons/fc';
-import {IoMdAdd} from 'react-icons/Io'
+import {IoMdAdd} from 'react-icons/io'
 import {createOrGetUser} from '../utils';
 import useAuthStore from '../store/authStore';
 import Link from 'next/link';
