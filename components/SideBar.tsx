@@ -10,7 +10,7 @@ import SuggestedAccounts from './SuggestedAccounts';
 import useAuthStore from '../store/authStore';
 
 
-const sideBar = () => {
+const SideBar = () => {
     const [active, setActive] = useState(false);
     const [user, setUser] = useState(false);
     const { fetchAllUsers, allUsers }: any = useAuthStore();
@@ -58,4 +58,4 @@ const sideBar = () => {
   )
 }
 
-export default sideBar
+export default SideBar

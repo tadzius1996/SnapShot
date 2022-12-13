@@ -17,7 +17,7 @@ interface IProps {
   user: IUser
 }
 
-const myProfile: NextPage<IProps> = ({post}) => {
+const MyProfile: NextPage<IProps> = ({post}) => {
   const {userProfile, addUser, removeUser} = useAuthStore();
   console.log(userProfile)
   
@@ -83,4 +83,4 @@ const myProfile: NextPage<IProps> = ({post}) => {
   )
 }
 
-export default myProfile
+export default MyProfile

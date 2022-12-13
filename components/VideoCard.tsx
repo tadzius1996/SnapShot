@@ -17,7 +17,7 @@ interface IProps {
   videoPost: Video
 }
 
-const videoCard: NextPage<IProps> = ({videoPost}) => {
+const VideoCard: NextPage<IProps> = ({videoPost}) => {
   const [post, setPost] = useState(videoPost);
   const [playing, setPlaying] = useState(false);
   const [hover, setHover] = useState(false);
@@ -148,4 +148,4 @@ export const getServerSideProps = async ({
   };
 };
 
-export default videoCard
+export default VideoCard
